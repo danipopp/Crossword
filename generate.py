@@ -130,10 +130,9 @@ class CrosswordCreator():
 
             for w in reWo:
                 self.domains[x].remove[w]
-                
+        print(r)
         return r
-            
-        raise NotImplementedError
+    
 
     def ac3(self, arcs=None):
         """
